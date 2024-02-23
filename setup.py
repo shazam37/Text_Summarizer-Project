@@ -10,6 +10,7 @@ AUTHOR_USER_NAME = "shazam"
 SRC_REPO = "textSummarizer"
 AUTHOR_EMAIL = "shazajmal37@gmail.com"
 
+
 setuptools.setup(
     name=SRC_REPO,
     version=__version__,

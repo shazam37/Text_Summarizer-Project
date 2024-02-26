@@ -53,7 +53,7 @@ class ConfigurationManager:
                 tokenizer_name=config.tokenizer_name
         )
     
-    def get_model_trainer_config(self) -> ModelTrainerConfig:
-         config = self.
+    # def get_model_trainer_config(self) -> ModelTrainerConfig:
+    #      config = self.
 
     

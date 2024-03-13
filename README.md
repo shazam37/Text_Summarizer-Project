@@ -7,6 +7,7 @@ LLMs are the current state of the art Natural Language Processing (NLP) models t
 Google's PEGASUS (Pre-training with Extracted Gap-sentences for Abstractive Summarization Sequence-to-sequence models) is one such open-source LLM trained on summarising a piece of dialogue or text data. You can find the paper here: https://arxiv.org/abs/1912.08777
 
 ![pegasus](https://github.com/shazam37/Text_Summarizer-Project/assets/119686545/22886b1d-7862-429e-83c7-f94e0ca4b0a7)
+
 The pegasus logo is named after a greek mythological character by the same name
 
 Its a transformer encoder-decoder model that can be fine tuned with any custom data. We can get one such custom dataset called SAMSUM from HuggingFace dataset library. It contains the text data of dialogue between two people and its summary as a label. We check for any redundancy in the dataset and clean it appropriately. We then tokenize both the dialogues and their summaries and use them to fine-tune the model. Its as simple as that!
